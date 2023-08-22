@@ -12,9 +12,24 @@ font-family: 'Inter', sans-serif;
 font-weight:500;
 font-size:14px;
 line-height:20px;
-color:black;
+color:#18191F;
+;
+text-decoration: none;
+
 }
 .nav-bar-list{
     display: flex;
     gap: 32px;
+    list-style:none ;
+    align-items: center;
+    
+    
+}
+.nav-bar{
+    max-width:1440px;
+    height:72px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
 }
