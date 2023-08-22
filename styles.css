@@ -45,3 +45,39 @@ text-decoration: none;
     list-style:none ;
 
 }
+.hero-section{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+
+}
+.hero-title{
+font-family: 'Inter', sans-serif;
+font-size: 72px;
+font-weight: 800;
+line-height: 98px;
+width: 730px;
+color:#18191F;
+margin-top: 70px;
+}
+.hero-content{
+    gap:32px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-button{
+border:0;
+background-color:#8C30F5;
+border-radius: 6px;
+color:White;
+Width:154px;
+Height:48px;
+Padding:12px, 32px, 12px, 32px;
+Gap:10px;
+font-family: Inter;
+font-size: 16px;
+
+font-weight: 500;
+line-height: 24px;
+cursor: pointer;
+}
